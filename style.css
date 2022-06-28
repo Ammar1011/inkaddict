@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Raleway:wght@100;200&family=Work+Sans&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.logo {
+    width: 180px;
+    height: 80px;
+}
+.links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-weight: 900;
+}
+.links a:hover {
+    color: goldenrod;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: black;
+    z-index: 20;
+    top: 0;
+}
+main {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20rem;
+}
+.inkaddict {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 150px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+h3 {
+    color: whitesmoke;
+    font-size: 80px;
+}
+.parallax_section {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% auto;
+    position: relative;
+}
+.parallax_image_first {
+    background-image: url(./waldemar-brandt-TW3p55Ydii8-unsplash.jpg);
+    background-position: center;
+    border-radius: cover;
+    filter: saturate(1);
+}
+.section-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.text-1 {
+    width: 100%;
+    padding: 0 200px;
+    color: rgba(245, 245, 245, 0.919);
+    font-size: 2rem;
+    padding-top: 80px;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.687);
+}
+.submit {
+    padding: 20px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    top: 80%;
+    position: absolute;
+    left: 46%;
+    font-size: 20px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+.section-2 {
+    width: 100%;
+    color: whitesmoke;
+    padding:0 2rem;
+    text-align: left;
+}
+.center_block {
+    width: 100%;
+    padding:8rem 10rem;
+}
+.center_block_1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+.center_block_2 {
+    margin-top: 3rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+.flex-parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+.flex-parent img {
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+.section3 {
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8rem ;
+}
+.title {
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 800;
+}
+.title-img {
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+.tittle-p {
+    padding-left: 100px;
+    padding-top: 150px;
+    font-size: 25px;
+    text-align: left;
+}
+.bild {
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.section4 {
+    background-color: goldenrod;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3rem 2rem;
+    padding-bottom: 3rem;
+}
+.kontakt {
+    font-size: 80px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-weight: 800;
+}
+.kontakt-info {
+    font-size: 35px;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+.p {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+.name {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+.name :first-child {
+    padding-bottom: 5px;
+}
+.kontakt-daten {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    text-align: left;
+}
+.span {
+    padding-bottom: 10px;
+}
+.kontakt-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.öffnungszeiten {
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.öffnungszeiten :first-child {
+    color: rgba(0, 0, 0, 0.571);
+    padding-bottom: 10px;
+}
+.daten {
+    width: 100%;
+    display: flex;
+    padding-left: 450px;
+}
+
+input {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.391);
+}
+textarea {
+    width: 300px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.391);
+    border: none;
+}
+.abschicken {
+    width: 150px;
+    
+    background-color: rgba(0, 0, 0, 0.571);
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 900;
+}
+.abschicken:hover {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.571);
+}
+.form {
+    text-align: center;
+    
+}
+.abschicken-1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+    .header {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 120px;
+        height: 40px;
+        padding-right: 10px;
+    }
+    .links {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .links a {
+        padding-top: 0.8rem;
+    }
+    main {
+        height: 18vh;
+    }
+    .inkaddict {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    .text-1 {
+        padding: 0 15px;
+        font-size: 0.7rem;
+        padding-top: 50px;
+    }
+    .submit {
+        left: 10%;
+        padding: 12px;
+    }
+    .section-2 {
+        padding:0 0.5rem;
+    }
+    .center_block {
+        padding:8rem 0.5rem;
+    }
+    .center_block_1 {
+        font-size: 1rem;
+    }
+    .center_block_2 {
+        font-size: 0.8rem;
+    }
+    .flex-parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        row-gap: 0.8rem;
+    }
+    .section3 {
+        text-align: center;
+        padding: 1rem ;
+    }
+    .title {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .title-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .tittle-p {
+        padding-left: 10px;
+        padding-top: 40px;
+        font-size: 0.7rem;
+    }
+    .bild {
+        width: 150px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 100px;
+        
+    }
+}
+
+@media (min-width: 401px) and (max-width: 810px) {
+    .header {
+        padding: 10px 0px;
+    }
+    .logo {
+        width: 90px;
+        height: 40px;
+        padding-right: 20px;
+    }
+    .links a {
+        font-size: 0.7rem;
+    }
+    main {
+        height: 15rem;
+        margin-top: 20vh;
+    }
+    .inkaddict {
+        font-size: 75px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .text-1 {
+        padding: 0 80px;
+        font-size: 1rem;
+        padding-top: 150px;
+    }
+    .submit {
+        left: 35%;
+        top: 70%;
+    }
+    .section-2 {
+        padding:0 1rem;
+    }
+    .center_block {
+        padding:8rem 3rem;
+    }
+    .center_block_1 {
+        font-size: 30px;
+    }
+    .center_block_2 {
+        font-size: 1.5rem;
+    }
+    .flex-parent {
+        height: 150px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+    }
+    .flex-parent img {
+        height: 150px;
+    }
+    .section3 {
+        text-align: center;
+        padding: 4rem ;
+    }
+    .title {
+        padding-top: 600px;
+        font-size: 30px;
+    }
+    .title-img {
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+    }
+    .tittle-p {
+        padding-left: 100px;
+        padding-top: 30px;
+        font-size: 0.2rem;
+    }
+    .bild {
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 100px;
+        margin-left: 25%; 
+    }
+    /* kontakt */
+    .section4 {
+        background-color: goldenrod;
+        width: 100%;
+        color: whitesmoke;
+        text-align: center;
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .kontakt {
+        font-size: 20px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        font-weight: 800;
+    }
+    .kontakt-info {
+        font-size: 15px;
+        padding-bottom: 50px;
+        font-weight: 600;
+    }
+    .p {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .name {
+        font-size: 10px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .name :first-child {
+        padding-bottom: 5px;
+    }
+    .kontakt-daten {
+        display: flex;
+        font-size: 10px;
+        flex-direction:column;
+        text-align: left;
+    }
+    .span {
+        padding-bottom: 15px;
+    }
+    .kontakt-2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        font-weight: 600;
+        color: whitesmoke;
+    }
+    .öffnungszeiten {
+        padding-top: 50px;
+    }
+    .öffnungszeiten :first-child {
+        color: rgba(0, 0, 0, 0.571);
+        padding-bottom: 10px;
+    }
+    .daten {
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    input {
+        width: 150px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgba(245, 245, 245, 0.391);
+    }
+    textarea {
+        width: 150px;
+        height: 120px;
+        padding: 15px;
+        border-radius: 4px;
+        background-color: rgba(245, 245, 245, 0.391);
+        border: none;
+    }
+    .abschicken {
+        width: 140px;
+        margin: 0px;
+        background-color: rgba(0, 0, 0, 0.571);
+        color: whitesmoke;
+        font-size: larger;
+        font-weight: 900;
+    }
+    .abschicken:hover {
+        background-color: whitesmoke;
+        color: rgba(0, 0, 0, 0.571);
+    }
+    .form {
+        text-align: center;
+    }
+    .abschicken-1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
